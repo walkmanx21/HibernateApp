@@ -28,5 +28,3 @@ MERGE INTO ITEM (PERSON_ID, ITEM_NAME) KEY (PERSON_ID, ITEM_NAME) VALUES ( 1, 'R
                                               ( 3, 'Hotwheels Monster truck' ),
                                               ( 4, 'Lol doll' ),
                                               ( 5, 'Book' );
-
-hibernate.connection.url=jdbc:h2:mem:default;INIT=RUNSCRIPT FROM 'init.sql'
